@@ -112,6 +112,11 @@ systemctl --user status mina  # check status mina
 systemctl --user stop mina  # stop and restarting mina
 systemctl --user restart mina  # restart mina
 ```
+Checking connectivity
+```
+coda client status
+```
+
 ## See Logs
 ```
 journalctl --user -u mina -n 1000 -f
